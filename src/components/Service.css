@@ -1,0 +1,56 @@
+/* Service.css */
+  
+  .service {
+    background: #000;
+    padding: 50px 0; 
+    margin-bottom: 100px;
+    position: relative;
+  }
+  .service-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    position: absolute; /* Make the position absolute */
+    top: 0; /* Position it at the top of the .service container */
+    left: 0; /* Position it at the left of the .service container */
+    right: 0; 
+  }
+  
+  .service-heading h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Your existing CSS for cards */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+    height: 80%;
+    margin-left: 20px;
+  }
+  
+  .card img {
+    max-width: 70%;
+    height: auto;
+  }
+  
+  .card h5 {
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  
+  .card:first-child {
+    margin-left: 180px; /* Add left margin only to the first card */
+  }
+  

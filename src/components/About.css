@@ -1,0 +1,67 @@
+/* About.css */
+.about {
+    background: #000;
+  }
+  .about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+  }
+  .about .text h6 {
+    color: #00bf7f;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-left:130px;
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  .about .text h2 {
+    color: #f7f5f4;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left:130px;
+    margin-top: 5px; 
+    margin-bottom:5px;
+    width:40%
+  }
+  .about .text p {
+    color: #f7f5f4;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-left:130px;
+    margin-top:5px;
+    width:40%
+    
+  }
+  .about .text a {
+    background: #00fb85;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #111;
+    margin-left:130px;
+    margin-top:5px
+  }
+  .about .img {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: flex-start; /* Align to the top */
+    margin-top: 5px; /* Adjust the margin as needed */
+  }
+  
+  
+  .about .img img {
+    width: 50%; /* Take up half the width */
+    max-width: 60%; /* Ensure image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: -380px
+    
+  }
+  
+  

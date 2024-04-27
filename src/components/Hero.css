@@ -1,0 +1,57 @@
+/* Hero.css */
+/* Hero.css */
+
+/* Hero Section */
+/* Hero Section */
+.mid {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative; /* Set position to relative */
+  }
+  
+  .mid video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .hero {
+    position: absolute; /* Position the text container absolutely */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure text appears above the video */
+    text-align: center;
+    color: white; /* Set text color to white */
+    font-weight: 700x51;
+    font-size: 35.5px;
+    margin-bottom: 4px; /* Adjust margin as needed  */
+  }
+  
+  .hero p {
+    margin-top: 4px; /* Adjust margin-top as needed */
+    width: 95%;
+    font-size: 18px;
+    padding-bottom: 8px;
+     padding-bottom: 4px;
+  }
+  
+  .hero a {
+    background: #00bf85;
+    font-weight: 600;
+    font-size: 14px; /* Adjust font size as needed */
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+  
+  
+  .hero a:hover {
+    background-color: #fff;
+    color: #111; /* Change text color on hover */
+  }
+  

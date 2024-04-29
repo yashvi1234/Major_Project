@@ -1,10 +1,10 @@
 /* SignUp.css */
 .signup {
     background: #fff;
-    padding: 50px 0; 
-    margin-bottom: 100px;
+    padding: 200px 0; 
+    margin-bottom: 5px;
     position: relative;
-    margin-top:-40px
+    
 
   }
   .signup .text {
@@ -13,6 +13,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin: auto;
+    margin-top:-60px
   }
   .signup .text h6 {
     color: #00bf7f;
@@ -21,6 +22,7 @@
     letter-spacing: 2px;
     margin-left:130px;
     margin-bottom: 5px;
+    margin-top:-80px
   }
   .signup .text h2 {
     color: #111;
@@ -38,6 +40,7 @@
     margin-left:130px;
     margin-bottom: 5px;
     width: 45%;
+
   }
   .signup .text a {
     background: #111;
@@ -52,16 +55,16 @@
   }
   .img {
    display:flex;
-   margin-top:5px;
+   margin-top:-60px;
     justify-content: flex-end;
     
   }
   
   .img img {
-    width: 50%; /* Take up half the width */
-    max-width: 50%; /* Ensure image doesn't exceed its container */
-    height: auto; /* Maintain aspect ratio */
+    width: 50%; 
+    max-width: 50%; 
+    height: auto;
     margin-left: 200px;
-    margin-top:-380px
+    margin-top:-300px
 
   }

@@ -6,6 +6,7 @@
     margin-bottom: 100px;
     position: relative;
   }
+  
   .service-heading {
     text-align: center;
     margin-bottom: 20px;
@@ -33,13 +34,18 @@
     background: #fff;
     border-radius: 10px;
     text-align: center;
-    padding: 20px;
-    margin: 10px;
-    width: 20%;
-    height: 80%;
+    padding: 5px;
+    margin: 5px;
+    width: 16%;
+    height: 20%;
     margin-left: 20px;
+    cursor: pointer; /* Add cursor pointer to indicate clickable */
+    transition: background-color 0.3s ease;
   }
-  
+  .card:hover,
+.card:focus {
+  background-color: #f0f0f0; /* Change background color on hover and focus */
+}
   .card img {
     max-width: 70%;
     height: auto;
@@ -51,6 +57,6 @@
   }
   
   .card:first-child {
-    margin-left: 180px; /* Add left margin only to the first card */
+    margin-left: 60px; /* Add left margin only to the first card */
   }
   

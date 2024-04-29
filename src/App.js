@@ -43,7 +43,6 @@ const App = () => {
       <Navbar />
       <Hero />
       <About/>
-      <Discover/>
       <Service/>
       <SignUp/>
       <Footer/>

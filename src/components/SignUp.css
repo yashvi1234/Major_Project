@@ -1,70 +1,50 @@
 /* SignUp.css */
 .signup {
-    background: #fff;
-    padding: 200px 0; 
-    margin-bottom: 5px;
-    position: relative;
-    
-
-  }
-  .signup .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: auto;
-    margin-top:-60px
-  }
-  .signup .text h6 {
-    color: #00bf7f;
-    font-weight: 800;
-    font-size: 16px;
-    letter-spacing: 2px;
-    margin-left:130px;
-    margin-bottom: 5px;
-    margin-top:-80px
-  }
-  .signup .text h2 {
-    color: #111;
-    font-weight: 700;
-    font-size: 45px;
-    margin-left:130px;
-    margin-top:5px;
-    margin-bottom: 5px;
-    width:50%
-  }
-  .signup .text p {
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    margin-left:130px;
-    margin-bottom: 5px;
-    width: 45%;
-
-  }
-  .signup .text a {
-    background: #111;
-    font-weight: 500;
-    padding: 15px 30px;
-    border-radius: 30px;
-    text-decoration: none;
-    color: #fff;
-    margin-left:130px;
-    margin-top:5px
-    
-  }
-  .img {
-   display:flex;
-   margin-top:-60px;
-    justify-content: flex-end;
-    
-  }
+  background: #fff;
+  padding: 200px 0; 
+  margin-bottom: 5px;
+  position: relative;
   
-  .img img {
-    width: 50%; 
-    max-width: 50%; 
-    height: auto;
-    margin-left: 200px;
-    margin-top:-300px
 
-  }
+}
+.signup .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+  margin-top:-300px
+}
+.signup .text h3 {
+  color: #00bf7f;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-left: 0; /* Aligns the heading to the left side */
+  margin-bottom: 5px;
+  margin-top: 20px; /* Removes the negative margin */
+  margin-left:-580px; /* Ensures the text within the heading is aligned left */
+}
+
+.card {
+  background: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  width: 16%;
+  height: 18%;
+  margin-left: 20px;
+  cursor: pointer; /* Add cursor pointer to indicate clickable */
+  transition: background-color 0.3s ease;
+}
+
+.card:hover,
+.card:focus {
+  background-color: #fff; /* Change background color on hover and focus */
+}
+
+.card img {
+  max-width: 70%;
+  height: auto;
+}

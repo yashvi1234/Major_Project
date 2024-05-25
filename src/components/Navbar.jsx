@@ -57,7 +57,7 @@ const Navbar = () => {
                 <a className="nav-link" href="#service">Service</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#signup">Sign up</a>
+                <a className="nav-link" href="#FinancialInfo">Financial Info</a>
               </li>
             </ul>
             <button className="btn btn-success text-dark" type="submit">

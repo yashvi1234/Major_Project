@@ -1,70 +1,89 @@
-/* SignUp.css */
 .signup {
-    background: #fff;
-    padding: 200px 0; 
-    margin-bottom: 5px;
-    position: relative;
-    
+  background: #b3e5fc; /* Light blue background to complement the green */
+  padding: 30px 0; /* Reduce padding for top and bottom */
+  position: relative;
+}
 
-  }
-  .signup .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: auto;
-    margin-top:-60px
-  }
-  .signup .text h6 {
-    color: #00bf7f;
-    font-weight: 800;
-    font-size: 16px;
-    letter-spacing: 2px;
-    margin-left:130px;
-    margin-bottom: 5px;
-    margin-top:-80px
-  }
-  .signup .text h2 {
-    color: #111;
-    font-weight: 700;
-    font-size: 45px;
-    margin-left:130px;
-    margin-top:5px;
-    margin-bottom: 5px;
-    width:50%
-  }
-  .signup .text p {
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    margin-left:130px;
-    margin-bottom: 5px;
-    width: 45%;
+.signup .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+  margin-bottom: 20px; /* Reduce margin bottom for spacing */
+}
 
-  }
-  .signup .text a {
-    background: #111;
-    font-weight: 500;
-    padding: 15px 30px;
-    border-radius: 30px;
-    text-decoration: none;
-    color: #fff;
-    margin-left:130px;
-    margin-top:5px
-    
-  }
-  .img {
-   display:flex;
-   margin-top:-60px;
-    justify-content: flex-end;
-    
-  }
-  
-  .img img {
-    width: 50%; 
-    max-width: 50%; 
-    height: auto;
-    margin-left: 200px;
-    margin-top:-300px
+.signup .text h3 {
+  color: #004d40; /* Darker green color */
+  font-weight: 800;
+  font-size: 24px; /* Increase font size */
+  letter-spacing: 2px;
+  margin-left: 0; /* Aligns the heading to the left side */
+  margin-bottom: 10px; /* Reduce margin for spacing */
+}
 
+.card-container {
+  padding-left: 0; /* Minimize left padding of the card container */
+  padding-right: 10px; /* Add right padding for balance */
+}
+
+.card {
+  background: #ffffff; /* White background */
+  border: 2px solid #00bf7f; /* Green border */
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px; /* Reduce padding */
+  margin: 10px; /* Reduce margin */
+  width: 200px; /* Reduce card width */
+  height: 280px; /* Reduce card height */
+  cursor: pointer; /* Add cursor pointer to indicate clickable */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add smooth transition */
+}
+
+.card:hover,
+.card:focus {
+  background-color: #00bf7f; /* Green background on hover */
+  color: #fff; /* White text on hover */
+  transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.card img {
+  max-width: 60%; /* Reduce image size */
+  height: auto;
+  border-radius: 10px; /* Rounded corners for images */
+}
+
+.card h5 {
+  color: #004d40; /* Darker green color */
+  font-weight: bold;
+  padding-top: 15px; /* Reduce padding */
+  font-size: 16px; /* Reduce font size */
+}
+
+.card p {
+  color: #004d40; /* Darker green color */
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align the cards */
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin: 10px 0; /* Adjust margin for smaller screens */
   }
+}
+
+#financialinfo h3 {
+  padding: 0.5em; /* Reduce padding */
+}
+
+.container {
+  margin-top: 0%;
+  padding-left: 0; /* Minimize left padding */
+  padding-right: 10px; /* Add right padding for balance */
+}

@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body {
+  overflow-x: hidden; /* Prevent scrolling */
+  height: 100%; /* Ensure body takes full height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}

@@ -19,8 +19,8 @@
 }
 
 .navbar .navbar-brand {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 26px; /* Increase font size */
+  font-weight: 800; /* Increase font weight */
   color: #fff; /* Ensure text color is white */
   margin-left: 16px; /* Adjust margin from the left border */
   transition: color 0.3s; /* Smooth transition for color change */
@@ -48,9 +48,9 @@
 }
 
 #navbarSupportedContent > ul > li > a {
-  color: #fff;
+  color: #c0c0c0; /* Use a lighter shade for nav links */
   font-size: 16px;
-  padding: 8px 14px;
+  padding: 10px 16px; /* Increase padding for better spacing */
   text-decoration: none; /* Remove underline */
   transition: color 0.3s, background-color 0.3s; /* Smooth transition for color change */
   border-radius: 4px; /* Add slight rounding to links */

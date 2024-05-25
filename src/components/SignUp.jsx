@@ -1,23 +1,36 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './SignUp.css';
 
 const SignUp = () => {
+  const handleCardClick = (link) => {
+    window.open(link, '_blank');
+  };
+
   return (
-    <section id="signup" className="signup py-3">
-      <div className="row align-items-center container my-3 mx-auto">
+    <section id="financialinfo" className="signup py-3">
+      <div className="container my-3 mx-auto">
         <div className="text col-lg-6 col-md-6 col-12 pt-5 pb-5">
-          <h6>JOIN OUR TEAM</h6>
-          <h2>Creating an account is extremely easy</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
-            consequatur non delectus ad quasi. Consectetur necessitatibus alias
-            eveniet corporis hic, expedita dolore quo eos tempore!
-          </p>
-          <a href="#">Start Now</a>
+          <h3>FINANCIAL INFORMATION</h3>
         </div>
-        <div className="img col-lg-6 col-md-6 col-12 pt-5 pb-5">
-          <img className="img-fluid" src="assets/images/4.png" alt="SignUp" />
+        <div className="row align-items-center justify-content-center text-center">
+          {[
+            { title: 'News updates in Financial market', imgSrc: 'assets/images/News updates in Financial market.png', description: 'Stock market analysis, currency exchange rates, and other financial news updates.', link: 'https://youtube.com/@zeebusiness?si=N4YNPel0MfCGWwOn/' },
+            { title: 'Financial educational podcast', imgSrc: 'assets/images/Financial educational podcast.png', description: 'Mastering your money through engaging talks on finances.', link: 'https://youtube.com/@financewithsharan?si=XSnWy_aRqgPCY5sj' },
+            { title: 'Learning from the financial leaders', imgSrc: 'assets/images/Learning from the financial leaders.png', description: 'Insights and strategies from top figures in the finance world.', link: 'https://youtube.com/@therichdadchannel?si=ZtImjYGkZgjJkpDN' },
+            { title: 'Trends in the financial market', imgSrc: 'assets/images/Trends in the financial market.png', description: 'Unveiling the evolving landscape of investing and financial management.', link: 'https://www.ezbob.com/lending-industry-evolution-top-5-trends-reshaping-the-financial-landscape/' },
+            { title: 'Lending and loans in business world', imgSrc: 'assets/images/Lending and loans in business world.png', description: 'Demystifying the borrowing and lending process for businesses.', link: 'https://www.tatacapital.com/blog/loan-for-business/the-latest-trends-in-business-loans/' },
+            { title: 'Business analysis and financial world', imgSrc: 'assets/images/Business analysis and financial world.png', description: 'Bridging the gap between business needs and financial decisions.', link: 'https://youtube.com/@thinkschool?si=DnMlU9DoVMIadrlt' },
+            { title: 'Reserve Bank of India', imgSrc: 'assets/images/Reserve Bank of India.png', description: "India's central bank, managing currency and regulating the banking system.", link: 'https://youtube.com/@reservebankofindia593?si=4zGwqpV-pzyvpxR1' },
+            { title: 'Loan frauds and related risks', imgSrc: 'assets/images/Loan frauds and related risks.png', description: 'Unmasking deceptive lending practices and safeguarding financial security.', link: 'https://seon.io/resources/loan-fraud-guide/' },
+            { title: 'Terminologies in Finance', imgSrc: 'assets/images/Terminologies in Finance.png', description: 'Navigating the world of money with key financial terms.', link: 'https://online.hbs.edu/blog/post/finance-for-non-finance-professionals-finance-terms-to-know' },
+            { title: 'Loan Interest Rates for Smarter Borrowing', imgSrc: 'assets/images/Loan Interest Rates for Smarter Borrowing.png', description: 'Securing the best loan deal by understanding interest rates.', link: 'https://investopedia.co.in/understanding-interest-rates-on-loans' },
+          ].map((card, index) => (
+            <div className="card col-lg-3 col-md-3 col-12 m-2" key={index} onClick={() => handleCardClick(card.link)}>
+              <img className="img-fluid w-75" src={card.imgSrc} alt={card.title} />
+              <h5 className="fw-bold pt-4">{card.title}</h5>
+              <p>{card.description}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

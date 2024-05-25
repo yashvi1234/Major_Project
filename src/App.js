@@ -46,7 +46,6 @@ const App = () => {
       <Service/>
       <SignUp/>
       <Footer/>
-      {/* Other components */}
     </div>
   );
 };

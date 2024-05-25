@@ -47,7 +47,7 @@ const Navbar = () => {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
         <div className="container-fluid">
-          <div className="navbar-brand">VirtualbanK</div>
+          <div className="navbar-brand">LoanNavigator</div>
           <div id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
@@ -57,12 +57,12 @@ const Navbar = () => {
                 <a className="nav-link" href="#service">Service</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#signup">Sign up</a>
+                <a className="nav-link" href="#financialinfo">Financial Info</a>
               </li>
             </ul>
-            <button className="btn btn-success text-dark" type="submit">
+            {/* <button className="btn btn-success text-dark" type="submit">
               Sign In
-            </button>
+            </button> */}
           </div>
         </div>
       </nav>

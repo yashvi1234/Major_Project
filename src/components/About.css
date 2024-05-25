@@ -1,6 +1,12 @@
+section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .about {
   background: linear-gradient(135deg, #000428 0%, #004e92 100%);
   padding: 50px 0; /* Add some padding for spacing */
+  
 }
 
 .about .text {
@@ -25,7 +31,7 @@
 .about .text h2 {
   color: #f7f5f4;
   font-weight: 700;
-  font-size: 50px; /* Increased font size */
+  font-size: 35px; /* Increased font size */
   margin-left: 130px;
   margin-top: 5px;
   margin-bottom: 10px; /* Slightly increased margin */
@@ -59,19 +65,35 @@
 }
 
 .about .img {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: center; /* Center the image vertically */
   margin-top: 5px;
   padding: 0 20px; /* Add some horizontal padding */
+  width: 100%; /* Adjusted width for the image container */
 }
 
 .about .img img {
-  width: 50%;
+  width: 100%; /* Set image width to 100% */
   max-width: 100%;
   height: auto;
-  margin-top: -50px; /* Adjusted margin for better alignment */
   border-radius: 10px; /* Add a slight border-radius for a modern look */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.about .text {
+  flex: 1; /* Set flex-grow to 1 to take up remaining space */
+  padding: 0 20px; /* Add some horizontal padding */
+  max-width: 60%; /* Limit the width to 60% */
+}
+
+.about .img {
+  flex: 1; /* Set flex-grow to 1 to take up remaining space */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* Center the image vertically */
+  margin-top: 5px;
+  padding: 0 50px; /* Add some horizontal padding */
+  max-width: 40%; /* Limit the width to 40% */
 }

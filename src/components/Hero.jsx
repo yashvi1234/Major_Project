@@ -10,14 +10,11 @@ const Hero = () => {
         Your browser does not support the video tag.
       </video>
       <div className="hero text-center">
-        <h2 className="text-light display-4 fw-bold">Virtual Banking Made Easy</h2>
+        <h2 className="text-light display-4 fw-bold">Loan Interest Rates for Smarter Borrowing</h2>
         <p className="text-light mx-auto">
-          A virtual bank is a bank that offers its services only via the
-          Internet, email, and other electronic means, often including
-          telephone, online chat, and mobile check deposit. A virtual bank has
-          no branch network.
+        Our web app simplifies loan searches by offering centralized access to compare options. Instantly compare interest rates from top banks to make informed decisions, potentially saving money in the long run.
         </p>
-        <a className="text-dark" href="#">Get Started</a>
+        <a className="text-dark" href="#about">Get Started</a>
       </div>
     </div>
   );

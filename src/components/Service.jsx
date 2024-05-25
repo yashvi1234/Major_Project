@@ -119,33 +119,34 @@ const Service = () => {
       <section id="service" className="service py-2 pb-5">
         <div className="container">
           <div className="heading text-center pt-5">
-            <h2 className="fw-bolder pb-4 text-light">Our Service</h2>
+            <h2 className="fw-bolder pb-4 text-light">Our Services</h2>
           </div>
           <div className="row mx-auto justify-content-center align-items-center text-center">
             <div className="card col-lg-3 col-md-3 col-12 m-2" onClick={() => handleCardClick('Education Loan')}>
               <img className="img-fluid w-75" src="assets/images/EducationLoan.png" alt="Service" />
               <h5 className="fw-bold pt-4">Education Loan</h5>
-              <p>Example data for Education Loan card</p>
+              <p>In India, education loans fund higher studies, covering tuition, books, housing, and more, offered by banks to students locally or abroad.</p>
             </div>
             <div className="card col-lg-3 col-md-3 col-12 m-2" onClick={() => handleCardClick('Personal Loan')}>
               <img className="img-fluid w-75" src="assets/images/PersonalLoan.png" alt="Service" />
               <h5 className="fw-bold pt-4">Personal Loan</h5>
-              <p>Example data for Personal Loan card</p>
+              <p>Personal loans offer flexibility with quick approval and fixed rates, aiding budgeting and debt consolidation while potentially improving credit scores.
+</p>
             </div>
             <div className="card col-lg-3 col-md-3 col-12 m-2" onClick={() => handleCardClick('Home Loan')}>
               <img className="img-fluid w-75" src="assets/images/HomeLoan.png" alt="Service" />
               <h5 className="fw-bold pt-4">Home Loan</h5>
-              <p>Example data for Home Loan card</p>
+              <p>Home loans empower you to achieve the dream of owning your own home, a significant milestone that brings pride and security to your life.</p>
             </div>
             <div className="card col-lg-3 col-md-3 col-12 m-2" onClick={() => handleCardClick('Vehicle Loan')}>
               <img className="img-fluid w-75" src="assets/images/VehicleLoan.png" alt="Service" />
               <h5 className="fw-bold pt-4">Vehicle Loan</h5>
-              <p>Example data for Vehicle Loan card</p>
+              <p>Vehicle loans come at fixed interest rates where you continue to pay the same fixed amount till the maturity duration of the loan payment.</p>
             </div>
             <div className="card col-lg-3 col-md-3 col-12 m-2" onClick={() => handleCardClick('Gold Loan')}>
               <img className="img-fluid w-75" src="assets/images/GoldLoan.png" alt="Service" />
               <h5 className="fw-bold pt-4">Gold Loan</h5>
-              <p>Example data for Gold Loan card</p>
+              <p>Gold loans: Quick, flexible, high value, low documentation, secured by gold, no strict credit checks, asset ownership maintained, renewable.</p>
             </div>
           </div>
         </div>

@@ -37,6 +37,7 @@
   margin-left: 20px;
   cursor: pointer; /* Add cursor pointer to indicate clickable */
   transition: background-color 0.3s ease;
+  max-width: 70%;
 }
 
 .card:hover,

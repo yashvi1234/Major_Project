@@ -1,62 +1,65 @@
-/* Service.css */
-  
-  .service {
-    background: #000;
-    padding: 50px 0; 
-    margin-bottom: 100px;
-    position: relative;
-  }
-  
-  .service-heading {
-    text-align: center;
-    margin-bottom: 20px;
-    position: absolute; /* Make the position absolute */
-    top: 0; /* Position it at the top of the .service container */
-    left: 0; /* Position it at the left of the .service container */
-    right: 0; 
-  }
-  
-  .service-heading h2 {
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  /* Your existing CSS for cards */
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  
-  .card {
-    background: #fff;
-    border-radius: 10px;
-    text-align: center;
-    padding: 5px;
-    margin: 5px;
-    width: 16%;
-    height: 20%;
-    margin-left: 20px;
-    cursor: pointer; /* Add cursor pointer to indicate clickable */
-    transition: background-color 0.3s ease;
-  }
-  .card:hover,
-.card:focus {
-  background-color: #f0f0f0; /* Change background color on hover and focus */
+.service {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); /* Lighter blue gradient */
+  padding: 70px 0;
+  margin-bottom: 100px;
+  position: relative;
 }
-  .card img {
-    max-width: 70%;
-    height: auto;
-  }
-  
-  .card h5 {
-    font-weight: bold;
-    padding-top: 20px;
-  }
-  
-  .card:first-child {
-    margin-left: 60px; /* Add left margin only to the first card */
-  }
-  
+
+.service-heading {
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.service-heading h2 {
+  color: #f7f5f4;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  width: calc(18% - 40px); /* Decreased width */
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover,
+.card:focus {
+  background-color: #f0f0f0;
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  max-width: 70%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card h5 {
+  font-weight: bold;
+  padding-top: 10px;
+  color: black; /* Changed title color to white */
+}
+
+.card:first-child {
+  margin-left: 0;
+}
+
+#service h2{
+  color: white;
+  padding: 1em;
+}

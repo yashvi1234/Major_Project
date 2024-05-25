@@ -1,67 +1,77 @@
-/* About.css */
 .about {
-    background: #000;
-  }
-  .about .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: auto;
-  }
-  .about .text h6 {
-    color: #00bf7f;
-    font-weight: 800;
-    font-size: 16px;
-    letter-spacing: 2px;
-    margin-left:130px;
-    margin-bottom: 5px;
-    margin-bottom: 5px;
-  }
-  .about .text h2 {
-    color: #f7f5f4;
-    font-weight: 700;
-    font-size: 45px;
-    margin-left:130px;
-    margin-top: 5px; 
-    margin-bottom:5px;
-    width:40%
-  }
-  .about .text p {
-    color: #f7f5f4;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    margin-left:130px;
-    margin-top:5px;
-    width:40%
-    
-  }
-  .about .text a {
-    background: #00fb85;
-    font-weight: 600;
-    padding: 15px 30px;
-    border-radius: 30px;
-    text-decoration: none;
-    color: #111;
-    margin-left:130px;
-    margin-top:5px
-  }
-  .about .img {
-    flex: 1; /* Take up remaining space */
-    display: flex;
-    justify-content: flex-end; /* Align to the right */
-    align-items: flex-start; /* Align to the top */
-    margin-top: 5px; /* Adjust the margin as needed */
-  }
-  
-  
-  .about .img img {
-    width: 50%; /* Take up half the width */
-    max-width: 60%; /* Ensure image doesn't exceed its container */
-    height: auto; /* Maintain aspect ratio */
-    margin-top: -380px
-    
-  }
-  
-  
+  background: linear-gradient(135deg, #000428 0%, #004e92 100%);
+  padding: 50px 0; /* Add some padding for spacing */
+}
+
+.about .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+  max-width: 1200px; /* Set a max-width for better layout */
+  padding: 0 20px; /* Add some horizontal padding */
+}
+
+.about .text h6 {
+  color: #00bf7f;
+  font-weight: 800;
+  font-size: 18px; /* Increased font size */
+  letter-spacing: 2px;
+  margin-left: 130px;
+  margin-bottom: 5px;
+}
+
+.about .text h2 {
+  color: #f7f5f4;
+  font-weight: 700;
+  font-size: 50px; /* Increased font size */
+  margin-left: 130px;
+  margin-top: 5px;
+  margin-bottom: 10px; /* Slightly increased margin */
+  width: 60%; /* Adjusted width */
+}
+
+.about .text p {
+  color: #f7f5f4;
+  font-weight: 400;
+  font-size: 20px; /* Increased font size */
+  letter-spacing: 0.5px;
+  margin-left: 130px;
+  margin-top: 10px;
+  width: 60%; /* Adjusted width */
+}
+
+.about .text a {
+  background: #00fb85;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #111;
+  margin-left: 130px;
+  margin-top: 10px; /* Slightly increased margin */
+  transition: background 0.3s; /* Add transition for hover effect */
+}
+
+.about .text a:hover {
+  background: #00bf7f; /* Change background color on hover */
+}
+
+.about .img {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 5px;
+  padding: 0 20px; /* Add some horizontal padding */
+}
+
+.about .img img {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  margin-top: -50px; /* Adjusted margin for better alignment */
+  border-radius: 10px; /* Add a slight border-radius for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
